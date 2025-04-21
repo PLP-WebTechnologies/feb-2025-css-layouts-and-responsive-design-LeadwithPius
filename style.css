@@ -42,12 +42,12 @@
   }
   
   .container img {
-   
-  width: 150px;        
-  height: auto;
-  object-fit: cover;
-  margin-top: 0.5rem;
-  border-radius: 8px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0.5rem auto;
+    display: block; /* centers the image */
+    border-radius: 8px;
   }
   /* Table Styling */
   table {
